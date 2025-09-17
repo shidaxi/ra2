@@ -1,0 +1,12 @@
+Map Name: Dark Side of the Moon
+Terrian Type: Lunar
+Size: 100x100
+Players: 2-4
+Resources: Ore, Gems, Tech Buildings
+Made By: Rick R. Mortis
+
+"Fly me to the moon, and let me play among the stars..."
+
+During the war, Yuri built a secret base on the Dark side of the moon. Now the base and its resoureces are abandoned, but there are still some things to find. Each side has had their tech trees altered to reflect avaliblity of units on the moon; many units are not buildable, while the Cosmonaut is. Other units have had cosmetic changes to adapt them to the environment. Slight mods give lighting effects to some buildings to add to the atmosphere (Or lack thereof).
+
+HINT: Air Defences are *good*.

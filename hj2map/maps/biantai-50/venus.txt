@@ -1,0 +1,23 @@
+Author: Chris Heit
+Address: grandforkian@hotmail.com
+Editor: Final Alert2 YR 
+Created and released: 12/4/01
+Yuri's Revenge Multiplayer Map [skirmish or online play]
+Name: Venus Fly Trap
+Version:1.0
+Size: 100x105
+Players: 2-4
+Format: .yrm
+Theater: Venus
+Resources: moderate (ore patches, 4 oil derricks, one gem patch)
+Info: Chrono your forces to Venus and battle it out. Stay clear of the constant barrage of meteor strikes, lightning storms, steaming craters, volcanoes, and other hazards while crushing your enemy.
+Many tweaks to make fighting on Venus a truly awesome experience. Make sure to garrison a few Battle Bunkers with Tesla or Flak Troopers or some other infantry for a more powerful defense.
+
+This map has a few modifications to accomodate a foreign planet.  First, unlike other maps taking place 
+off the Earth, Venus doesn't limit your tech levels.  In other words, you can build anything you normally can except for the hero units and dogs and the seige chopper, Kirov, and Nighthawk. (however, the infantry units are of course wearing space suits)
+Essentially, this means the AI will actually fight you instead of sit around all day and watch tv.
+With the absence of the siege chopper, the Soviets have upgraded all of their infantry. Now almost any infantry unit can be sent into a battle bunker and use their respective weapon, providing a truly formidable defense.
+
+To play, place the map (.yrm file) in your RA2 directory, start the game, and look for the map name "Venus Fly Trap".
+
+Note: If anyone knows how to tint the map preview yellow, please email how. That would be really cool.

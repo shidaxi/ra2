@@ -1,0 +1,248 @@
+Maelstrom
+..a multiplayer map for Red Alert 2
+
+
+Contents
+  1. Map Information
+  2. Map Description
+  3. Requirements
+  4. Install & Run
+  5. Modifications
+  6. Known Bugs
+  7. Other RA2/YR Maps by the Author
+  8. MapEditing Notes
+  9. Credits
+ 10. Disclaimer
+ 11. Legal
+
+
+
+
+===1. Map Information===
+*Author: Cannis
+*Map Name: Maelstrom
+*Game Supported: Red Alert 2
+*Players: 2-8
+*Size: 114x132
+*Theater: Temperate
+*Resources: Moderate
+*Format: .MPR
+*File Size: 357Kb
+*Online Transfer: Disabled
+*Editors Used: FA2-Yuri, XCC Mixer, Wordpad, Paint Shop Pro
+*Map Release Date: 4/8/02
+
+
+
+
+===2. Map Description===
+mael·strom:
+1) a powerful often violent whirlpool sucking in objects within a given radius
+2) something resembling a maelstrom in turbulence
+
+Prepare yourself for the ultimate resource war map! All players must fight for the single distant ore field. All units must pass through this ore field to get from one base to another. The resulting carnage in the center of this map is bloody indeed. Enemy units are not the only hazards there; this area is wracked by frequent isolated lighting strikes (complete with ambient light flashes), which are randomly attracted to the ore mines as if they were lightning rods. All players are given free radar from the start, and the radar screen will alert you to the location of each lightning strike when it occurs. Intricately constructed terrain makes the map seem much larger than it really is.
+
+Normal Ore resource gathering rules do not allow for sufficient income on this map, so several key modifications were made. Miners are much faster, and hold twice as much ore. Also, ore mines produce new ore much more frequently. You'll find a couple of derricks near each base, but be advised that while they will give you a little extra seed money when you first capture them, from then on they will only produce half what they normally do. Another mod added to help you come back when you're on the ropes: Simply owning a Barracks gives to access to Paradrops!
+
+Tips: Teching up early is probably unwise; concentrate on building a strong economy. Build extra miners because you will lose several. Remember miners are very speedy, so among other things, they are also very good at running away from danger. Keep in mind that their doubled storage capacity means that they will spend twice as much time actually gathering ore. Prepare for early paradrop attacks - they become available 5 minutes after building a Barracks. There's only one way in or out of each base, making sieges possible.
+
+
+
+===3. Requirements===
+You need to have Red Alert 2 installed to play this map.
+
+
+
+
+===4. Install & Run===
+*Included files:
+maelstrom.mpr (the map)
+maelstrom_RA2.gif (preview image)
+maelstrom_RA2.txt (this file)
+
+Place maelstrom.mpr in your \RA2\ directory. Start RA2, and the map should appear on the map list. Battle/FFA, Meatgrinder, Nukewar, and Airwar game modes are supported.
+
+
+
+
+===5. Modifications===
+-Ore Miners are much faster, and hold more ore. Ore mines produce new ore more frequently.
+
+-Oil Derricks give 150% cash on first capture, and 50% cash in production.
+
+-Owning a Barracks gives access to Paradrops (which become available every 5 minutes rather than every 4).
+
+-Paradrop Plane is much stronger.
+
+-Allied and Soviet AI will train more dogs.
+
+-Mirage tanks mimic more and different trees than the same old 4 you're used to seeing.
+
+
+
+
+===6. Known Bugs===
+-On very rare occasions, an single AI ore miner will think there's no ore to mine and will simply sit at its base.
+
+-Soviet War Miners will, on rare occasions, become quite annoyed at being attacked, and will abandon mining so as to pursue their enemy, which is often an unwise thing for them to do. This applies to both player-controlled and AI-controlled War Miners.
+
+
+
+
+===7. Other RA2/YR Maps by the Author===
+.....(as of the date of this release).....
+[Multiplayer/Skirmish]
+	Maelstrom			(RA2)
+	Freeze-Out v.2			(RA2 & YR)
+	Field & Stream			(RA2 & YR)
+	Collision Course v.2		(RA2 & YR)
+	Switchback Ridge v.2		(RA2 & YR)
+	Switchback Ravine v.2		(RA2 & YR)
+	Moonlit Bay v.2			(RA2 & YR)
+	Sunstroke			(YR)
+	OverExtended v.2		(RA2 & YR)
+	Frigid Triangle			(RA2 & YR)
+	Frigid Triangle Blackout	(YR)
+	Frigid Triangle NightOps	(RA2 & YR)
+	OutGrowth			(RA2)
+	City Fights Back		(RA2)
+	City Under Siege		(RA2)
+	ROCK YOU!			(RA2)
+	Gem Pit				(RA2)
+	Jungle Warfare			(RA2)
+	Inversion			(RA2)
+
+[Obsolete Maps]
+	Freeze-Out (RA2)		<replaced by Freeze-Out v.2>
+	Collision Course (RA2)		<replaced by Collision Course v.2>
+	Switchback Ravine (RA2)		<replaced by Switchback Ravine v.2>
+	Switchback Ridge (RA2)		<replaced by Switchback Ridge v.2>
+	Moonlit Bay (RA2)		<replaced by Moonlit Bay v.2)
+	OverExtended (RA2)		<replaced by OverExtended v.2>
+
+
+
+
+===8. MapEditing Notes===
+I've always been intrigued by map design that creates resource war conditions, but have never seen one where all the ore is distant. After creating the layout for this map, I soon discovered that no miners could find any ore. This problem was solved by setting TiberiumFarScan= to a much larger value. Even so, the distances that miners must travel resulted in everyone always being poor. After much playtesting, I settled on multiplying miner speed by 250%, and multiplying miner storage capacity by 200%. The advantage of increasing speed is obvious; but the increased capacity aspect is a double-edged sword. The greater the capacity, the more time the miner needs to fill itself. And it is while mining that the miner is the most vulnerable.
+
+You will note that I have increased War Miner speed a touch more than I increased Chrono Miner speed. In my tests, these increased speeds and storage capacities exposed that the Chrono Miner is indeed the superior miner, at least on maps where miners can be harrassed. So in my mind, the long-standing debate of which miner is better is finally settled.
+
+I had no success altering the Value= of any of the tiberium (ore) types, nor did I have any success in altering the rate that ore grows or spreads. This stuff is all hard-coded maybe? In any event, I was able to make ore mines (TIBTRE01 in this case) produce new ore much more energetically by altering the mine's AnimationProbability=. This ensures that ore never runs out, even for 8 players with large refining operations.
+
+The interlocking cliffwork was done entirely in framework mode. Cliffs surrounding the oil derricks and water cliffs at the map corners, were placed on top of already-raised terrain, then lowered as a unit ('Lower terrain tool' while holding the CTRL key). This technique works on water too, don't let anyone tell you that you can't raise/lower water. The uneven terrain was roughed out with the 'raise/lower terrain' tools, and fine detail was applied using the individual ramp tiles, adjusting with the 'raise/lower single field' tools where appropriate.
+
+Weather Storm lighting includes some unusual settings. I have been using a negative IonGround= value for some time (this make structures more distinct), but on this map I am also using a negative IonLevel= value (this makes higher elevation map cells darker than lower elevation cells, rather than the more typical reverse). The combined effects are subtle but I like them :) Note that negative values are not supported in the FA2-Yuri's lighting editor, and must be added through text editing. Reopening the lighting editor at a later time will convert negative values to positive ones.
+
+Some notes on the triggers are appropriate here:
+
+1) As is, FA2-Yuri will let you make Lightning Strike triggers, but will not let you properly set the locations where you want those strikes to occur (they will always strike at waypoint 0). To fix this, open FADATA.INI (found in the same directory where you installed FA2-Yuri), and make the following change in the [ActionsRA2] section of the file:
+
+This line:
+90=Lightning strike at...,0,30,0,0,0,0,0,0,0,A single Ion Storm lightning strike.,0,1,90
+...should be replaced with:
+90=Lightning strike at...,0,0,0,0,0,0,1,0,0,Lightning strike at specific waypoint,0,1,90
+
+2) Randomizing the lightning strikes (or any trigger action) is a technique covered in my "Randomizing Trigger Actions" tutorial, available for viewing at http://www.ra2mg.com/cannis/
+
+3) Making large, rapid ambient light changes possible is discussed in the readme file bundled with my map "Frigid Triangle NightOps" for RA2.
+
+4) The 'Create Radar Event' trigger action refers to the list in rules.ini, under the [General] section, under the heading "Controls for radar events". This is a numbered list beginning with 1, but for purposes of a trigger, the list is considered as beginning with 0. So the parameter I used, "5", is actually "6" in the rules list ("Enemy Object Sensed Event").
+
+
+
+All INI changes are documented below.
+
+;Let Ore Miners scan for ore further away
+[AI]
+TiberiumFarScan=80
+
+;Allows for large, rapid ambient light changes
+[AudioVisual]
+AmbientChangeRate=.01
+AmbientChangeStep=.8
+
+;Derricks give more money on capture, but less money thereafter (but more often, appears as steady 'dribble' of cash)
+[CAOILD]
+ProduceCashDelay=50
+ProduceCashAmount=5
+ProduceCashStartup=1500
+
+;Faster Chrono Miner with larger capacity
+[CMIN]
+Speed=10
+Storage=40
+
+;Allied Barracks gives paradrops
+[GAPILE]
+SuperWeapon=ParaDropSpecial
+
+;Can't build Allied shipyard
+[GAYARD]
+TechLevel=-1
+
+;AI gathers closer to enemy base before attacking
+;AI won't build shipyards no matter what
+;Mirage Tanks mimic more and different trees
+[General]
+AISafeDistance=16
+AINavalYardAdjacency=1
+DefaultMirageDisguises=TREE02,TREE04,TREE05,TREE06,TREE07,TREE08,TREE10,TREE12
+
+;Faster War Miner with larger capacity
+[HARV]
+Speed=11
+Storage=80
+
+;Soviet Barracks gives paradrops
+[NAHAND]
+SuperWeapon=ParaDropSpecial
+
+;Can't build Soviet shipyard
+[NAYARD]
+TechLevel=-1
+
+;Much stronger paradrop plane
+[PDPLANE]
+Strength=1000
+
+;Less frequent paradrop recharge
+[ParaDropSpecial]
+RechargeTime=5
+
+;Ore mines produce new ore more energetically
+[TIBTRE01]
+AnimationProbability=.060
+
+
+
+
+===9. Credits===
+-Westwood for a great game.
+
+-Matze for a great editor - Final Alert2-YURI!!
+
+
+
+
+===10. Disclaimer===
+The author does not make any warranties regarding the files in this archive. Users assume responsibility for the results achieved for computer program use and should verify applicability and accuracy.
+
+
+
+
+===11. Legal===
+This Red Alert2 map 'Maelstrom' is (c) Apr 8, 2002 by Tony Ferrara AKA CannisRabidus.
+You MAY NOT include this map as part of any sort of commercial or promotional product without my permission.
+You MAY distribute this map through any other means, provided it is offered free of charge.
+If offered from a WWW or FTP site or similar, this .txt file (unaltered) must be included.
+Please do not use this map as a base for other maps.
+
+
+I hope you like the map!
+-CannisRabidus 4/8/2002
+cannis@earthlink.net
+For more maps by Cannis, please visit:
+http://www.cannis.net/cannis/
+
+This readme file altered 1/7/2002 to update the above website URL.

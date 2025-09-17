@@ -1,0 +1,84 @@
+Map Name: Haunted Forest v1.0
+Players: 2-4 (Auto Transfer Disabled)
+Size: 110x115
+Theater: Temperate
+Time of Day: late dusk
+Author: Wildefire
+
+Moments after deploying your CY, a flaming apparition appears in your base. A skeleton appears at the exit ramp from your base. Cries of soldiers eternally reliving the anguish of their last battles and other ominous sounds alert you that something is not quite right before even leaving the safety of your base. Welcome to Wildefire's Haunted Forest where ghosts lurk, lying in wait to ambush your forces and recruit them into their Undead Army. These ghosts are not always successful in turning your units against you, but their attack is so demoralizing that units forget their original orders, requiring your leadership to get them moving again. Even the heavens storm in anger whenever any of these foul abominations appear and disappear, as they often do before your very eyes. Your ground forces are forced to brave the forest without any air support because air units cannot penentrate the supernatural aura surrounding the forest. Only dogs, a commander's best friend, and terror drones have the preternatural vision needed to unveil these ghastly entities before your units wander into their range. But even dogs and drones find it difficult to attack these ethereal creatures, often needing to be ordered more than once to attack. There is no hope of permanently ridding the forest of ghosts as you cannot permanently kill what is already dead -- or Undead. Just fight your way through to your more earthly opponents.
+
+-------------------------
+Mods:
+
+1) Dogs: Cost reduced as you'll need a lot of them. They also have sensors to detect cloaked units. Even in real life, dogs supposedly see ghosts that humans cannot. ;-)
+
+2) Terror drones: Have sensors. (Cost remains the same to avoid possibly unbalancing the game, since so many people find them so pesky.) CYs for both sides are available in all base areas so that Allied players can build them (and so all players will be able to build whatever they think they need to get through the forest, except air units.)
+
+3) "Mega" Oil derricks: Gems within the safety of your base area will eventually run out. And there is no ore within the safety of the basin containing your base. Your miners will eventually have to venture out into the forest.
+
+4) Outhouses: Are cloak generators and are invisible in the game (even to units with sensors, though the dogs can probably sniff them out)
+
+5) "Naval targetting" for dogs and terror drones is basically a hack to try to improve their ability to target semi-cloaked units. ("Cloaking" in RA2 is actually for submerged naval units and is therefore slightly buggy for ground units.) I'm not totally sure if it helps, but I left it in there in case it does. See gameplay tips for how to work around it.
+
+6) No air units can be built. This is to prevent "turtling" and conducting only air wars to avoid going through the "forest". Patriots and flak cannons OTOH can be built to defend against V3s if desired.
+
+7) All garrisonable structures are "click-repairable" using the wrench tool while occupied and some have increased capacity.
+
+----------------------------
+
+Gameplay tips:
+
+Never move your army without sweeping the route ahead with dogs or drones. You will not ever be able to totally rid the map of Yuris as new ones are constantly arriving on the map -- and at somewhat random intervals. 
+
+Remember that the Yuris and any units they mind control are Neutral units. Therefore you must manually target them. Your units will not automatically attack them except under unusual circumstances. 
+
+Attacking "ghostly" (semi-transparent) units often requires multiple clicks. This is a RA2 bug, but it nicely adds to the "ghostly, supernatural" effect IMHO.
+
+Do not attempt to terror drone ghostly (semi-transparent) vehicles. ("Ghostly" infantry is OK.) There is a RA2 bug involving terror droning them that will usually cause loss of the drone. Surrounding the vehicle with cheap dogs to keep it fully uncloaked long enough for the drone to destroy it usually works. (You'll lose a lot of dogs, but that's one reason they're so cheap.)
+
+Just as a review... Units that are immune to psionics (Yuri's attack) are dogs, terror drones, ore miners, and Yuris (of course).
+
+----------------------------
+
+NOTES: Neutral Yuris are not always successful at mind-controlling units. This is due to the attacking Yuri immediately leaving the map after attacking, with control of the unit returning to the player. This however has the effect of cancelling whatever orders were originally given to the unit and it will remain where it was attacked until given new orders. But do not rely on this because not all Yuris immediately leave the map after attacking. This does not affect player-built Yuris and units mind-controlled by them.
+
+If the game lags after players build large armies, send out a bunch of drones or dogs and kill some of the Yuris that have built up. The amount of Yuris on the map is greatly variable and is dependent on many factors including whether they have the opportunity to attack units. Many of them are supposed to leave the map after a time, but this varies. (Some were pre-placed on the map and stay there until killed.) During lulls in the game when no one is moving units across the map, the Yuri population tends to be larger as new arrivals may temporarily outnumber the departing Yuris.
+
+If after completely destroying a player, you do not hear "Player defeated" or "Computer defeated", wait for a moment or two. It seems to take the game a bit longer than usual to figure this out, apparently because of so much Yuri-induced house switching. Also look for stationary units scattered around the map, since that is much more likely to happen on this map than usual. (See the first note.)
+
+------------------------
+
+Have fun! All constructive comments and feedback are greatly appreciated. 
+
+Wildefire
+wildefire@members.womengamers.com
+
+Acknowledgements (and sincere thank yous) to the following:
+
+1) beta testers (some of whom tested multiple versions):
+
+Almyghty
+At0mic
+Cr@zyiv@n
+Deezire
+Elbudster
+JCBDigger
+LairBear
+mARTIN
+Ranker
+RVMech
+Snake
+Swmaper
+Volrath_Lord_of_Rat
+Volterx
+Xflame
+
+2) Other technical advice
+
+Deezire
+User
+
+
+
+
+

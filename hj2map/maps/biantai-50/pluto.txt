@@ -1,0 +1,21 @@
+Author: Chris Heit
+Address: grandforkian@hotmail.com
+Editor: Final Alert2 YR 
+Created and released: 12/4/01
+Yuri's Revenge Multiplayer Map [skirmish or online play]
+Name: Plutonian Wastelands
+Version:1.0
+Size: 95x85
+Players: 2-4
+Format: .yrm
+Theater: Pluto
+Resources: moderate (ore patches, 6 oil derricks)
+Info: Battle on the ninth planet, Pluto.  Not much room to expand your base, so place your buildings wisely. Capture the six derricks for a better supply of income.  Or garrison the communications center to allow satellites above to reveal the entire map for you.  Ore has been discovered on Pluto so you needn't worry about that.  Yet all the while, stay clear of the constant barrage of meteors striking the planet.  They just may be your downfall.  Oh, and capture the command center for a special surprise.
+
+This map has a few modifications to accomodate a foreign planet.  First, unlike other maps taking place 
+off the Earth, Pluto doesn't limit your tech levels.  In other words, you can build anything you normally can except for the hero units and dogs and the seige chopper, Kirov, and Nighthawk. (however, the infantry units are of course wearing space suits)
+Essentially, this means the AI will actually fight you instead of sit around all day and watch tv.
+
+To play, place the map (.yrm file) in your RA2 directory, start the game, and look for the map name "Plutonian Wastelands".
+
+Note: If anyone knows how to tint the map preview blue, or change the Weather Control Device to release a wicked meteor shower, please email how. That would be really cool.
